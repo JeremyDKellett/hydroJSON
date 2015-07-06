@@ -23,9 +23,9 @@ Show what the library does as concisely as possible, developers should be able t
 
 ####All available sites/Stations with metadata:
 
-NWD-Columbia River[/getjson?catalog=\[\]](http://www.nwd-wc.usace.army.mil/dd/common/web_service/webexec/getjson?catalog=[])
+Original hydroJSON NWD-Columbia River: [/getjson?catalog=\[\]](http://www.nwd-wc.usace.army.mil/dd/common/web_service/webexec/getjson?catalog=[])
 
-####All available nationwide sites/Stations with metadata:
+Nationwide CWMS hydroJSON (district availability will increase over time) 
 [/getjson?catalog=\[\]](http://corpsmapu.usace.army.mil/cm_apex/cwms_public.cwms_json.catalog)
 
 ## Motivation
