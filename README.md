@@ -4,6 +4,8 @@ hydroJSON
 ## Synopsis
 A JSON based standard for interchanging hydro, meteorological and environmental data. The main goal of this standard is to have a common way of interchanging  and using HydroMet data via web services. Given the ease with importing JSON formatted objects programmatically, this standard has use cases in modeling as well.
 
+This fork focuses more on the PL/SQL generating hydroJSON then the master.
+
 ## Code Example
 
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
