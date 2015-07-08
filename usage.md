@@ -3,19 +3,12 @@ Potential Usage examples:
 
 Requirements
 ---
-User Can specify Units, if none specifed, return default units. (Mike Neilson will check with HEC/CWMS) 
--Is there a table of conversions readily availible (Dave Coyle will check on this).
-If invalid units specified return error.
-We need a list of default units and precision.
-Multiple timeseries can be requested by name
-Multiple sites can be requested 
-Multiple data types (Parameters)
-One interval at a time (e.g. one start date and end date per query) (Done)
-Start time or back  (ISO 8601 Period P2Y1M14d2h5m3s) Literal time has precedence if both are specified
-End Time or forward (ISO 8601 Period -2WY2Y2M4d2h5m3s) Literal Time has precedence if both are specified
-preferred method is to use HTTP GET, however post can be used (Done)
-Hashes will be on contents of timeseries value array. 
-
+The initial build has units hardcoded to database units: 
+m	  Elev
+cms	Flow
+mm	Precip
+m3	Stor
+m	  Stage
 Timeseries Query
 --
 {
