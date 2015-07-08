@@ -24,7 +24,7 @@ Show what the library does as concisely as possible, developers should be able t
 [/getjson?tscatalog=\["GCL"\]](http://www.nwd-wc.usace.army.mil/dd/common/web_service/webexec/getjson?tscatalog=["GCL"])
 
 Nationwide CWMS hydroJSON
-[/getjson?tscatalog=\["GCL"\]](http://corpsmapu.usace.army.mil/cm_apex/cwms_public.cwms_json.tscatalog?p_location_id=UVD)
+[/getjson?tscatalog=\["UVD"\]](http://corpsmapu.usace.army.mil/cm_apex/cwms_public.cwms_json.tscatalog?p_location_id=UVD)
 
 ####All available sites/Stations with metadata:
 
