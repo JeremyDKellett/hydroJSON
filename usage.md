@@ -1,20 +1,20 @@
 
 Potential Usage examples:
 
-Requirements
+Data Units
 ---
-The initial build has units hardcoded to database units: elev and stage (m), flow (cms), precip (mm), storage (m3)
+The initial build has TSV data in their SI/database units: elev and stage (m), flow (cms), precip (mm), storage (m3)
+
+Location metadata (elevation) is in feet. (i.e. the elevation of UVD is 420' MSL.
 
 Timeseries Query
 --
+in-progress functionality is to build out the startdt and enddt variables. Future 
 {
   "timeseries" : [["tsid1","units1","interval1"], ["tsid2","units2","interval2"], ["tsid3","units3","interval3"]],
-  "startdt":"ISO-8601",
-  "enddt":"ISO-8601",
-  "forward":"ISO-8601", //referenced from startdt, or datetime.now() if nothing specified
-  "back": "ISO-8601", //referenced from enddt, or datetime.now() if nothing specified
-  "query" : ["BON Flow", "12340000 03065", "BIGI QD"]
-}
+  "p_base_parameter_id": ["Elev","Flow","Stage","Stor","Precip"]
+  "back": "ISO-8601", //referenced from enddt, or datetime.now() if nothing specified. Valid values are 1d-7d.
+  }
 
 getjson?timeseries=[["CHJ Q","cfs","Daily"], ["CHJ.Flow.Inst.1Day.0.CBT-REV","kcfs"], ["12437990 00060","cfs"]]
 
