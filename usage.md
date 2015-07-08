@@ -3,12 +3,8 @@ Potential Usage examples:
 
 Requirements
 ---
-The initial build has units hardcoded to database units: 
-m	  Elev
-cms	Flow
-mm	Precip
-m3	Stor
-m	  Stage
+The initial build has units hardcoded to database units: elev and stage (m), flow (cms), precip (mm), storage (m3)
+
 Timeseries Query
 --
 {
