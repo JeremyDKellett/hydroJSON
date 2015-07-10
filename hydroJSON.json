@@ -8,10 +8,13 @@
             "datum": "string"
         },
         "HUC": "Numeric HUC Code",
+        "NIDID":"string", //optional, the national inventory of dams ID number if the location is a dam
+        "NID Owner":"string", //optional, the NID owner string (CENAE = Corps of Engineers, New England District)
         "elevation": {
             "value": "float",
             "accuracy": "float",
             "datum": "string",
+            "units": "string", //the units(ft or m) for the elevation, in MSL
             "method": "string (full explanation)"
         },
         "timezone": "string, full name US/Pacific",
@@ -19,6 +22,7 @@
         "time_format": "strftime/ISO-8601",
         "active_flag": "character T/F",
         "location_type": "string e.g. Reservoir or streamgage", //API Call in CWMSdd
+        
         "timeseries":{
           "TS_ID1": {
            "values": [
