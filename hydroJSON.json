@@ -22,7 +22,8 @@
         "time_format": "strftime/ISO-8601",
         "active_flag": "character T/F",
         "location_type": "string e.g. Reservoir or streamgage", //API Call in CWMSdd
-        
+        "URL_Local": "string", //URL of the local WM page for this location
+        "URL_National": "string", //URL to the national DB WM page for this location
         "timeseries":{
           "TS_ID1": {
            "values": [
