@@ -8,6 +8,7 @@
             "datum": "string"
         },
         "HUC": "Numeric HUC Code",
+        "kind_id" : "string", //The CWMS Kind ID (Project, lock, Turbine, etc.)
         "NIDID":"string", //optional, the national inventory of dams ID number if the location is a dam
         "NID Owner":"string", //optional, the NID owner string (CENAE = Corps of Engineers, New England District)
         "elevation": {
