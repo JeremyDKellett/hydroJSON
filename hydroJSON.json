@@ -8,7 +8,7 @@
             "datum": "string"
         },
         "HUC": "Numeric HUC Code",
-        "kind_id" : "string", //The CWMS Kind ID (Project, lock, Turbine, etc.)
+        
         "NIDID":"string", //optional, the national inventory of dams ID number if the location is a dam
         "NID Owner":"string", //optional, the NID owner string (CENAE = Corps of Engineers, New England District)
         "elevation": {
@@ -23,6 +23,7 @@
         "time_format": "strftime/ISO-8601",
         "active_flag": "character T/F",
         "location_type": "string e.g. Reservoir or streamgage", //API Call in CWMSdd
+        "location_kind_id" : "string", //The CWMS Kind ID (Project, lock, Turbine, etc.) Not to be confused with location_types, which are non-domained
         "URL_Local": "string", //URL of the local WM page for this location
         "URL_National": "string", //URL to the national DB WM page for this location
         "timeseries":{
